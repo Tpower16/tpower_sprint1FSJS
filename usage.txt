@@ -1,0 +1,18 @@
+index <command> <option>
+
+Usage:
+
+index --help                            displays help
+index init --all                        creates the folder structure and config file
+index init --mk                         creates the folder structure
+index init --cat                        creates the config file with default settings
+index config --show                     displays a list of the current config settings
+index config --reset                    resets the config file with default settings
+index config --set                      sets a specific config setting
+index token --count                     displays a count of the tokens created
+index token --new <username>            generates a token for a given username, saves tokens to the json file
+index token --upd p <username> <phone>  updates the json entry with phone number
+index token --upd e <username> <email>  updates the json entry with email
+index token --search u <username>       fetches a token for a given username
+index token --search e <email>          fetches a token for a given email
+index token --search p <phone>          fetches a token for a given phone number

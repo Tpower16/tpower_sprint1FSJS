@@ -1,0 +1,17 @@
+{
+    "name": "TerrancePower_Sprint1_FSJS",
+    "version": "1.0.0",
+    "description": "FSJS Sprint 1 - Building a CLI",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Terrance Power",
+    "license": "ISC",
+    "dependencies": {
+        "crc": "^4.1.1",
+        "date-fns": "^2.29.3",
+        "uuid": "^9.0.0"
+    }
+}
