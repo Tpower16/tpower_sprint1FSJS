@@ -130,7 +130,17 @@ function tokenApp() {
             tokens.forEach((obj) => {
                 if (obj.username === myArgs[3]) {
                     if (DEBUG) console.log("Found " + obj.username);
-                    obj.phone = myArgs[4];
+                    switch (myArgs[2]) {
+                        case "p":
+                        case "P":
+                            obj.phone = myArgs[4];
+                            break;
+                        case "e":
+                        case "E":
+                            obj.email = myArgs[4];
+                            break;
+                        default:
+                    }
                 }
             });
 
